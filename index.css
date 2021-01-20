@@ -1,0 +1,44 @@
+.nav-link {
+    font-weight: bold;
+    color: white;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.nav-item {
+    position: relative;
+}
+.cv-icon {
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    background: url('cv_icon2.png');
+}
+
+.nav-link:hover {
+    font-weight: bold;
+    color: #9bd7ff;
+}
+.nav-link:hover .cv-icon {
+    background: url('cv_icon_hover2.png');
+}
+
+.cv-icon:hover {
+    background: url('cv_icon_hover2.png');
+}
+
+@media screen and (max-width: 575px) {
+    .nav-link {
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width: 576px) {
+    .nav-link {
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .nav-link {
+        font-size: 2rem;
+    }
+}
