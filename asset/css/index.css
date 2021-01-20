@@ -12,7 +12,7 @@
     height: 60px;
     width: 60px;
     display: inline-block;
-    background: url('cv_icon2.png');
+    background: url('asset/img/cv_icon2.png');
 }
 
 .nav-link:hover {
@@ -20,11 +20,11 @@
     color: #9bd7ff;
 }
 .nav-link:hover .cv-icon {
-    background: url('cv_icon_hover2.png');
+    background: url('asset/img/cv_icon_hover2.png');
 }
 
 .cv-icon:hover {
-    background: url('cv_icon_hover2.png');
+    background: url('asset/img/cv_icon_hover2.png');
 }
 
 @media screen and (max-width: 575px) {
