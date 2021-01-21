@@ -1,0 +1,72 @@
+.navbar {
+    background-color: #343A40;
+}
+.nav-link {
+    font-weight: bold;
+    color: white;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.nav-item {
+    position: relative;
+}
+/* Images initiales */
+.cv-icon {
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    background: url('/asset/img/cv_icon2.png');
+}
+.portfolio-icon {
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    background: url('/asset/img/portfolio_icon2.png');
+}
+
+/* Hover sur les liens  */
+.nav-link:hover {
+    font-weight: bold;
+    color: #9bd7ff;
+}
+
+/* Hover sur les images */
+.portfolio-icon:hover {
+    background: url('/asset/img/portfolio_icon_hover2.png');
+}
+.cv-icon:hover {
+    background: url('/asset/img/cv_icon_hover2.png');
+}
+
+/* Hover sur les images et les liens*/
+.nav-link:hover .cv-icon {
+    background: url('/asset/img/cv_icon_hover2.png');
+}
+.nav-link:hover .portfolio-icon {
+    background: url('/asset/img/portfolio_icon_hover2.png');
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 575px) {
+    .nav-link {
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width: 576px) {
+    .nav-link {
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .nav-link {
+        font-size: 2rem;
+    }
+}

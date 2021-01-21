@@ -1,0 +1,140 @@
+.main-cv {
+    min-height: 85vh;
+}
+
+/* ===========================
+*
+*            MENU
+*
+* ============================*/
+
+.ul-menu,.ul-contact,.ul-contact-icon-link,.ul-menu-icon {
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+.ul-contact-icon-link li,.ul-menu-icon li {
+    display: inline-block;
+}
+.ul-menu {
+    margin-top: 15px;
+}
+.ul-menu li{
+    margin-bottom: 15px;
+}
+.ul-menu li a{
+    color: #343A40;
+
+}
+.ul-menu li a:hover{
+    color: #008eec;
+    font-weight: bold;
+}
+.ul-menu li a:link{
+    color: #343A40;
+    text-decoration: none;
+}
+.ul-menu-icon {
+    display: block;
+}
+.menu-icon-bg {
+    background: #343A40;
+}
+.row-menu-contact {
+    height: 100%;
+    justify-content: center;
+}
+.col-menu-contact {
+    height: 100%;
+}
+.row-menu {
+    height: 65%;
+    justify-content: center;
+}
+.row-contact {
+    height: 35%;
+    justify-content: center;
+}
+
+/* =====================================
+*
+*               Container CV
+*
+*=======================================*/
+
+
+/* =====================================
+*
+*               ICON
+*
+*=======================================*/
+/* Social media link */
+.fa-linkedin,.fa-github {
+    padding: 0.35em;
+    font-size: 1.5em;
+    width: 1.65em;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    color: white;
+}
+.fa-linkedin:hover,.fa-github:hover {
+    opacity: 0.7;
+    color: white;
+}
+.fa-linkedin:link,.fa-github:link {
+    text-decoration:none;
+}
+.fa-linkedin, .fa-linkedin:hover {
+    background: #007bb5;
+    
+}
+.fa-github, .fa-github:hover {
+    background: #24292E;
+}
+
+/* Menu icon */
+.fa-user,.fa-graduation-cap,.fa-briefcase,.fa-cogs {
+    text-decoration: none;
+    font-size: 2.5em;
+    color: white;
+}
+.fa-user:hover,.fa-graduation-cap:hover,.fa-briefcase:hover,.fa-cogs:hover {
+    color: white;
+    background: #24292E;
+    opacity: 0.7;
+}
+@media screen and (max-width: 575px) {
+    .visible-sm {
+        display: block;
+        height: 10%;
+    }
+    .invisible-sm {
+        display: none;
+    }
+}
+@media screen and (min-width: 576px) {
+    .ul-contact li {
+        font-size: 0.8em;
+    }
+    .ul-menu li {
+        font-size: 1em;
+    }
+    .visible-sm {
+        display: none;
+        height: 0%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .ul-contact li {
+        font-size: 1em;
+    }
+    .ul-menu li {
+        font-size: 1.3em;
+    }
+    .visible-sm {
+        display: none;
+        height: 0%;
+    }
+}
