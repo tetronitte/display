@@ -7,20 +7,20 @@
 *            MENU
 *
 * ============================*/
-
-.ul-menu,.ul-contact,.ul-contact-icon-link,.ul-menu-icon {
+.border-menu-info {
+    border-right: solid 2px #343A40;
+}
+.ul-menu,.ul-info,.ul-info-icon-link,.ul-menu-icon {
     list-style-type: none;
     padding:0;
     margin:0;
 }
-.ul-contact-icon-link li,.ul-menu-icon li {
+.ul-info-icon-link li,.ul-menu-icon li {
     display: inline-block;
-}
-.ul-menu {
-    margin-top: 15px;
 }
 .ul-menu li{
     margin-bottom: 15px;
+    font-weight: bold;
 }
 .ul-menu li a{
     color: #343A40;
@@ -28,7 +28,9 @@
 }
 .ul-menu li a:hover{
     color: #008eec;
-    font-weight: bold;
+}
+.ul-menu li a:focus{
+    color: #008eec;
 }
 .ul-menu li a:link{
     color: #343A40;
@@ -39,29 +41,31 @@
 }
 .menu-icon-bg {
     background: #343A40;
+    padding-left: 0;
+    padding-right: 0;
 }
-.row-menu-contact {
+.row-menu-icon {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.row-menu-info {
     height: 100%;
     justify-content: center;
 }
-.col-menu-contact {
+.col-menu-info {
     height: 100%;
 }
 .row-menu {
     height: 65%;
     justify-content: center;
+    padding-top: 45px;
 }
-.row-contact {
+.row-info {
     height: 35%;
     justify-content: center;
 }
-
-/* =====================================
-*
-*               Container CV
-*
-*=======================================*/
-
 
 /* =====================================
 *
@@ -93,7 +97,6 @@
 .fa-github, .fa-github:hover {
     background: #24292E;
 }
-
 /* Menu icon */
 .fa-user,.fa-graduation-cap,.fa-briefcase,.fa-cogs {
     text-decoration: none;
@@ -105,36 +108,54 @@
     background: #24292E;
     opacity: 0.7;
 }
+.menu-icon-bg li {
+    width: 100%;
+}
+.menu-icon-bg li a {
+    width: 100%;
+}
+/* XS */
 @media screen and (max-width: 575px) {
-    .visible-sm {
+    .visible-xs {
         display: block;
-        height: 10%;
     }
-    .invisible-sm {
+    .invisible-xs {
         display: none;
     }
 }
+/* SM */
 @media screen and (min-width: 576px) {
-    .ul-contact li {
+    .ul-info li {
         font-size: 0.8em;
     }
     .ul-menu li {
         font-size: 1em;
     }
-    .visible-sm {
+    .visible-xs {
         display: none;
-        height: 0%;
     }
 }
+/* MD */
 @media screen and (min-width: 768px) {
-    .ul-contact li {
+    .ul-info li {
         font-size: 1em;
     }
     .ul-menu li {
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
-    .visible-sm {
+    .visible-xs {
         display: none;
-        height: 0%;
+    }
+}
+/* LG */
+@media screen and (min-width: 992px) {
+    .ul-info li {
+        font-size: 1.1em;
+    }
+    .ul-menu li {
+        font-size: 1.4em;
+    }
+    .visible-xs {
+        display: none;
     }
 }

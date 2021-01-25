@@ -1,0 +1,93 @@
+section {
+    overflow: scroll;
+}
+.degree-school-education span,.degree-school-education a,.date-education span{
+    font-weight: bold;
+    color: #343A40;
+}
+.degree-school-education a {
+    text-decoration: none;
+}
+.degree-school-education a:hover {
+    color: #008eec;
+}
+.date-education {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.info-education {
+    padding-top: 30px;
+}
+
+@media screen and (max-width: 575px) {
+    .date-education {
+        font-size: 1em;
+    }
+    .degree-school-education {
+        font-size: 1em;
+    }
+    .info-education {
+        font-size: 0.8em;
+    }
+    .row-section-education {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .col-section-education {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
+/* SM */
+@media screen and (min-width: 576px) {
+    .date-education {
+        font-size: 1.2em;
+    }
+    .degree-school-education {
+        font-size: 1.2em;
+    }
+    .info-education {
+        font-size: 1em;
+    }
+    .row-section-education {
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+    .col-section-education {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+}
+/* MD */
+@media screen and (min-width: 768px) {
+    .date-education {
+        font-size: 1.3em;
+    }
+    .degree-school-education {
+        font-size: 1.3em;
+    }
+    .info-education {
+        font-size: 1.1em;
+    }
+    .row-section-education {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .col-section-education {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+/* LG */
+@media screen and (min-width: 992px) {
+    .date-education {
+        font-size: 1.5em;
+    }
+    .degree-school-education {
+        font-size: 1.5em;
+    }
+    .info-education {
+        font-size: 1.25em;
+    }
+}

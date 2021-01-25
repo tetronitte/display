@@ -1,14 +1,14 @@
 .header-cv {
     min-height: 15vh;
+    display: flex;
+    align-items: center;
 }
 .title {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 .h1-header-cv {
-    margin-right: 20px;
     color: #ffffff;
     font-weight: bold;
 }
@@ -16,10 +16,9 @@
     color: #ffffff;
     font-weight: bold;
 }
-
 .fa-chevron-left {
     color: #ffffff;
-    font-size: 2.5em;
+    margin-left: 10px;
 }
 .fa-chevron-left:hover {
     color: #9bd7ff;
@@ -28,32 +27,86 @@
     text-decoration: none;
     color: #9bd7ff;
 }
-.chevron-icon {
+.nav-item span {
+    color: white;
+}
+.fa-info,.fa-info:hover {
+    background: #343A40;
+    color: white;
+    font-size: 2.5em;
+    margin-right: 0.5em;
+}
+.fa-info:hover {
+    opacity: 0.7;
+}
+/* ==============================================
+*
+*                       MODAL
+*
+=================================================*/
+.modal-dialog {
+    margin: 0 auto;
+    width: 75%;
+}
+.modal-content {
+    background-color: #343A40;
+}
+.modal-title {
+    color: white;
+    font-weight: bold;
+}
+.modal-body {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
+.close,.close:hover,.ul-modal-info li span {
+    color: white;
+}
+
+
 @media screen and (max-width: 575px) {
-    .h1-header-cv, .fa-chevron-left {
+    .fa-chevron-left {
+        font-size: 1.5em;
+    }
+    .h1-header-cv {
         font-size: 1em;
     }
     .h2-header-cv {
         font-size: 0.8em;
     }
+    .visible-xs {
+        display: block;
+    }
+    .header-cv {
+        justify-content: space-between;
+    }
 }
 @media screen and (min-width: 576px) {
-    .h1-header-cv, .fa-chevron-left {
+    .fa-chevron-left {
+        font-size: 2em;
+    }
+    .h1-header-cv {
         font-size: 1.5em;
     }
     .h2-header-cv {
         font-size: 1em;
     }
+    .visible-xs {
+        display: none;
+    }
+    .title {
+        width: 94%;
+        justify-content: center;
+    }
 }
 @media screen and (min-width: 768px) {
-    .h1-header-cv, .fa-chevron-left {
+    .h1-header-cv {
         font-size: 2em;
     }
     .h2-header-cv {
         font-size: 1.5em;
+    }
+    .visible-xs {
+        display: none;
     }
 }
