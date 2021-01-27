@@ -1,0 +1,18 @@
+.row-section-experience {
+    display: none;
+}
+.col-section-experience {
+    overflow-y: scroll;
+}
+.date-experience span,.job-experience a,.job-experience span{
+    font-weight: bold;
+    color: #343A40;
+}
+.job-experience a {
+    color: #0673bb;
+}
+.date-experience {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

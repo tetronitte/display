@@ -1,31 +1,32 @@
-section {
-    overflow: scroll;
+.row-section-education {
+    display: none;
 }
-.degree-school-education span,.degree-school-education a,.date-education span{
+.col-section-education {
+    overflow-y: scroll;
+}
+.degree-school-education span,.degree-school-education a,.date-education p{
     font-weight: bold;
     color: #343A40;
 }
 .degree-school-education a {
-    text-decoration: none;
-}
-.degree-school-education a:hover {
-    color: #008eec;
+    color: #0673bb;
 }
 .date-education {
     display: flex;
     flex-direction: column;
-    text-align: center;
-}
-.info-education {
-    padding-top: 30px;
+    justify-content: start;
 }
 
+/* XS */
 @media screen and (max-width: 575px) {
     .date-education {
         font-size: 1em;
     }
-    .degree-school-education {
+    .degree-school-education span,.degree-school-education a{
         font-size: 1em;
+    }
+    .degree-school-education p {
+        font-size: 0.9em;
     }
     .info-education {
         font-size: 0.8em;
@@ -44,8 +45,11 @@ section {
     .date-education {
         font-size: 1.2em;
     }
-    .degree-school-education {
+    .degree-school-education span,.degree-school-education a{
         font-size: 1.2em;
+    }
+    .degree-school-education p {
+        font-size: 0.9em;
     }
     .info-education {
         font-size: 1em;
@@ -64,8 +68,11 @@ section {
     .date-education {
         font-size: 1.3em;
     }
-    .degree-school-education {
+    .degree-school-education span,.degree-school-education a{
         font-size: 1.3em;
+    }
+    .degree-school-education p {
+        font-size: 1.1em;
     }
     .info-education {
         font-size: 1.1em;
@@ -84,8 +91,11 @@ section {
     .date-education {
         font-size: 1.5em;
     }
-    .degree-school-education {
+    .degree-school-education span,.degree-school-education a{
         font-size: 1.5em;
+    }
+    .degree-school-education p {
+        font-size: 1.1em;
     }
     .info-education {
         font-size: 1.25em;

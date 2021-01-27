@@ -1,4 +1,4 @@
-<header class="header-cv bg-dark row">
+<header class="header-cv bg-dark row" id="header_cv">
     <div class="col-1-ms col-xs-1 chevron-icon">
         <a href="../../../index.php" class="fa fa-chevron-left" title="Retour à l'index"></a>
     </div>
@@ -19,12 +19,12 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <ul class="ul-contact ul-modal-info">
+                    <ul class="ul-modal-info">
                         <li><span>axel.ndc@gmail.com</span></li>
                         <li><span>+33 6 22 12 43 57</span></li>
                         <li><span>6 rue berryer</span></li>
                         <li><span>80080 - Amiens</span></li>
-                        <ul class="ul-contact-icon-link">
+                        <ul class="ul-modal-info-icon-link">
                             <li><a href="https://www.linkedin.com/in/axel-noir-de-chazournes-1356a2187/" target="_blank" class="fa fa-linkedin" title="Linkedin"></a></li>
                             <li><a href="https://github.com/tetronitte" target="_blank" class="fa fa-github" title="Github"></a></li>
                         </ul>

@@ -1,0 +1,47 @@
+.row-section-skills {
+    display: none;
+}
+.col-section-skills {
+    overflow-y: scroll;
+}
+.list-icon-advanced-skills,.list-icon-basic-skills,.list-icon-notion-skills {
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+.ajust-icon-skills {
+    display: flex;
+    align-items: center;
+    height: 64px;
+}
+.skills-items {
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.title-skills {
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* XS */
+@media screen and (max-width: 575px) {
+    
+}
+/* SM */
+@media screen and (min-width: 576px) {
+    .title-skills {
+        font-size: 1.5em;
+    }
+}
+/* MD */
+@media screen and (min-width: 768px) {
+    .title-skills {
+        font-size: 2em;
+    }
+}
+/* LG */
+@media screen and (min-width: 992px) {
+    .title-skills {
+        font-size: 2.5em;
+    }
+}

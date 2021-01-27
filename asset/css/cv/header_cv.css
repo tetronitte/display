@@ -1,5 +1,4 @@
 .header-cv {
-    min-height: 15vh;
     display: flex;
     align-items: center;
 }
@@ -30,14 +29,14 @@
 .nav-item span {
     color: white;
 }
-.fa-info,.fa-info:hover {
+.fa-info {
     background: #343A40;
     color: white;
     font-size: 2.5em;
     margin-right: 0.5em;
 }
 .fa-info:hover {
-    opacity: 0.7;
+    color: #9bd7ff;
 }
 /* ==============================================
 *
@@ -62,8 +61,15 @@
 .close,.close:hover,.ul-modal-info li span {
     color: white;
 }
-
-
+.ul-modal-info,.ul-modal-info-icon-link {
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+.ul-modal-info-icon-link {
+    display: flex;
+    flex-direction: row;
+}
 @media screen and (max-width: 575px) {
     .fa-chevron-left {
         font-size: 1.5em;
